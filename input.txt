@@ -1,0 +1,5 @@
+table;input
+LL   ;id+id*id$
+LR   ;acd$
+LL   ;+id*id$
+LR   ;cd$

@@ -1,0 +1,9 @@
+LR     ;action ;action ;action ;action;goto   ;goto
+states ;a      ;c      ;d      ;$     ;S      ;B
+State_1;State_3;       ;       ;      ;State_2;
+State_2;       ;       ;       ;Accept;       ;
+State_3;       ;State_6;State_5;      ;       ;State_4
+State_4;       ;       ;       ;S->aB ;       ;
+State_5;       ;       ;       ;B->d  ;       ;
+State_6;       ;State_6;State_5;      ;       ;State_7
+State_7;       ;       ;       ;B->cB ;       ;
